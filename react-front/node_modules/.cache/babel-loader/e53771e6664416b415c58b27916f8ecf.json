@@ -1,0 +1,1 @@
+{"ast":null,"code":"var isObject = require('../internals/is-object');\n\nvar $String = String;\nvar $TypeError = TypeError; // `Assert: Type(argument) is Object`\n\nmodule.exports = function (argument) {\n  if (isObject(argument)) return argument;\n  throw $TypeError($String(argument) + ' is not an object');\n};","map":null,"metadata":{},"sourceType":"script"}

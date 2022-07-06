@@ -1,0 +1,1 @@
+*.pack !text !filter !merge !diff
