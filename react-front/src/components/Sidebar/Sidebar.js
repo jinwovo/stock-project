@@ -17,7 +17,7 @@
 */
 import React, { Component } from "react";
 import { useLocation, NavLink } from "react-router-dom";
-
+import github from "./image-side/githubmini.png"
 import { Nav } from "react-bootstrap";
 
 import logo from "assets/img/reactlogo.png";
@@ -45,8 +45,8 @@ function Sidebar({ color, image, routes }) {
               <img src={require("assets/img/reactlogo.png")} alt="..." />
             </div>
           </a>
-          <a className="simple-text" href="http://www.creative-tim.com">
-            Creative Tim
+          <a className="simple-text" href="#">
+            Stock Project
           </a>
         </div>
         <Nav>
@@ -67,7 +67,11 @@ function Sidebar({ color, image, routes }) {
                     activeClassName="active"
                   >
                     <i className={prop.icon} />
-                    <p>{prop.name}</p>
+                    <img src={prop.image}
+                    width="28"
+                    height="28"
+                    />
+                    <p>  {prop.name}</p>
                   </NavLink>
                 </li>
               );
