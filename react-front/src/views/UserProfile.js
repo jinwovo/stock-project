@@ -12,8 +12,26 @@ import {
   Row,
   Col
 } from "react-bootstrap";
+import {useState, useEffect} from "react";
+
 
 function User() {
+
+  const [data, setData] = useState([{}])
+
+  useEffect(() => {
+      fetch("/user").then(
+          res => res.json()
+      ).then(
+          data => {
+            setData(data)
+            console.log(data)
+          }
+      )
+
+      }, [])
+
+
   return (
     <>
       <Container fluid>

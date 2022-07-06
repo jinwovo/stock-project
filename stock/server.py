@@ -4,9 +4,9 @@ app = Flask(__name__)
 
 
 # Members API Route
-@app.route("/members")
+@app.route("/user")
 def members():
-    return {"members": ["Member1", " Member2", "Member3"]}
+    return {"users": ["users1", " users2", "users3"]}
 
 
 @app.route('/dashboard')
