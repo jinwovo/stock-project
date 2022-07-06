@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad1e09ba-9c4a-47e9-ae58-ef3d0afb724b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/kwnji/Downloads/backup/backup 1",
+    "last_opened_file_path": "C:/Pywork/react-front/src/assets/img",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -56,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Pywork\react-front\src\assets\img" />
       <recent name="C:\Pywork\react-front\src\components\category" />
       <recent name="C:\Pywork\react-front\src\components" />
       <recent name="C:\Pywork\stock" />
@@ -127,7 +126,7 @@
       <updated>1657009652381</updated>
       <workItem from="1657009653460" duration="3511000" />
       <workItem from="1657067822793" duration="83000" />
-      <workItem from="1657067918526" duration="14609000" />
+      <workItem from="1657067918526" duration="16906000" />
     </task>
     <servers />
   </component>

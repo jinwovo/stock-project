@@ -27,7 +27,7 @@ import Upgrade from "views/Upgrade.js";
 const dashboardRoutes = [
   {
     upgrade: true,
-    path: "/github",
+    path :"/github",
     name: "GITHUB ADDRESS",
     icon: "nc-icon nc-alien-33",
     component: Upgrade,
