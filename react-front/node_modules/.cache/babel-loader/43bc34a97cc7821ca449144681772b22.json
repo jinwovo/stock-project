@@ -1,0 +1,1 @@
+{"ast":null,"code":"var isCallable = require('../internals/is-callable');\n\nmodule.exports = function (it) {\n  return typeof it == 'object' ? it !== null : isCallable(it);\n};","map":null,"metadata":{},"sourceType":"script"}
