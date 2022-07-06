@@ -12,6 +12,8 @@ import {
   Row,
   Col,
 } from "react-bootstrap";
+import githubimage from 'assets/img/githubimage.png';
+
 
 function Upgrade() {
   return (
@@ -21,11 +23,11 @@ function Upgrade() {
           <Col className="ml-auto mr-auto" md="8">
             <Card>
               <div className="header text-center">
-                <h4 className="title">Light Bootstrap Dashboard PRO React</h4>
-                <p className="category">
-                  Are you looking for more components? Please check our Premium
-                  Version of Light Bootstrap Dashboard React.
-                </p>
+                <h4 className="title">GITHUB</h4>
+                <a href="https://github.com/jwoo99/stock-project/">
+                <img src={githubimage}>
+                </img>
+                   </a>
                 <br></br>
               </div>
               <Table responsive>
@@ -54,45 +56,9 @@ function Upgrade() {
                   </tr>
                   <tr>
                     <td>Documentation</td>
-                    <td>
-                      <i className="fas fa-times text-danger"></i>
-                    </td>
-                    <td>
-                      <i className="fas fa-check text-success"></i>
-                    </td>
+
                   </tr>
-                  <tr>
-                    <td>SASS Files</td>
-                    <td>
-                      <i className="fas fa-times text-danger"></i>
-                    </td>
-                    <td>
-                      <i className="fas fa-check text-success"></i>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Login/Register/Lock Pages</td>
-                    <td>
-                      <i className="fas fa-times text-danger"></i>
-                    </td>
-                    <td>
-                      <i className="fas fa-check text-success"></i>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Premium Support</td>
-                    <td>
-                      <i className="fas fa-times text-danger"></i>
-                    </td>
-                    <td>
-                      <i className="fas fa-check text-success"></i>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>Free</td>
-                    <td>Just $49</td>
-                  </tr>
+
                   <tr className="last-row">
                     <td></td>
                     <td>
