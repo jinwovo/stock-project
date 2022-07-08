@@ -1,1 +1,2 @@
+*.pack filter=lfs diff=lfs merge=lfs -text
 *.pack !text !filter !merge !diff
