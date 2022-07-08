@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ad1e09ba-9c4a-47e9-ae58-ef3d0afb724b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,11 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "Errors",
     "ts.external.directory.path": "C:\\Pywork\\react-front\\node_modules\\typescript\\lib"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "SCSS"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -129,7 +135,7 @@
       <workItem from="1657009653460" duration="3511000" />
       <workItem from="1657067822793" duration="83000" />
       <workItem from="1657067918526" duration="22339000" />
-      <workItem from="1657258555148" duration="1218000" />
+      <workItem from="1657258555148" duration="5011000" />
     </task>
     <servers />
   </component>
@@ -141,7 +147,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/react-front/src/components/Footer/Footer.js</url>
-          <line>50</line>
+          <line>34</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
