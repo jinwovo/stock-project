@@ -14,7 +14,7 @@ def main():
     return {"dashboard": ["dashboard.html","start.html1"]}
 
 
-@app.route('/category')
+@app.route('/kospiandnasdaq')
 def category():
     return {"category": ["category.html"]}
 
