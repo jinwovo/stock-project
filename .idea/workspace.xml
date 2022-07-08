@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ad1e09ba-9c4a-47e9-ae58-ef3d0afb724b" name="Changes" comment="Changes">
+=======
+    <list default="true" id="ad1e09ba-9c4a-47e9-ae58-ef3d0afb724b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+>>>>>>> 33ad7cefa12022e494cedbc0d9fe538b188638c0
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,24 +52,34 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/projects/stock-project",
+=======
+    "last_opened_file_path": "C:/Pywork/react-front/src/components/Sidebar",
+>>>>>>> 33ad7cefa12022e494cedbc0d9fe538b188638c0
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+<<<<<<< HEAD
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+=======
+    "settings.editor.selected.configurable": "Errors",
+>>>>>>> 33ad7cefa12022e494cedbc0d9fe538b188638c0
     "ts.external.directory.path": "C:\\Pywork\\react-front\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Pywork\react-front\src\components\Sidebar" />
       <recent name="C:\Pywork\react-front\src\assets\img" />
       <recent name="C:\Pywork\react-front\src\components\category" />
       <recent name="C:\Pywork\react-front\src\components" />
       <recent name="C:\Pywork\stock" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Pywork\react-front\src\components\Sidebar\image-side" />
       <recent name="C:\Pywork\react-front\src\layouts\Admin\components" />
       <recent name="C:\Pywork\react-front\src\components\ThemeWrapper\contexts" />
       <recent name="C:\Pywork\react-front\src\components\BackgroundColorWrapper\contexts" />
@@ -131,8 +146,12 @@
       <updated>1657009652381</updated>
       <workItem from="1657009653460" duration="3511000" />
       <workItem from="1657067822793" duration="83000" />
+<<<<<<< HEAD
       <workItem from="1657067918526" duration="16906000" />
       <workItem from="1657093627514" duration="2226000" />
+=======
+      <workItem from="1657067918526" duration="22036000" />
+>>>>>>> 33ad7cefa12022e494cedbc0d9fe538b188638c0
     </task>
     <servers />
   </component>

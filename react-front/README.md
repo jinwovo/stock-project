@@ -117,13 +117,12 @@ light-bootstrap-dashboard-react
     │       └── Sidebar.js
     └── views
         ├── Dashboard.js
-        ├── Icons.js
-        ├── Maps.js
+        ├── Coupling.js
         ├── Notifications.js
-        ├── TableList.js
-        ├── Typography.js
+        ├── Kospi.js
+        ├── Nasdaq.js
         ├── Upgrade.js
-        └── UserProfile.js
+        └── kospiandnasdaq.js
 ```
 
 ## Browser Support

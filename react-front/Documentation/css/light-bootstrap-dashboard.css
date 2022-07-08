@@ -1376,7 +1376,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   .navbar .btn-simple {
     font-size: 16px; }
   .navbar.fixed {
-    width: calc(100% - $sidebar-width);
+    width: calc(100%);
     right: 0;
     left: auto;
     border-radius: 0; }
@@ -1907,25 +1907,17 @@ body > .navbar-collapse[data-color="purple"]:after {
   display: flex; }
 
 .ct-label.ct-horizontal.ct-start {
-  -webkit-box-align: flex-end;
   -webkit-align-items: flex-end;
-  -ms-flex-align: flex-end;
   align-items: flex-end;
-  -webkit-box-pack: flex-start;
   -webkit-justify-content: flex-start;
-  -ms-flex-pack: flex-start;
   justify-content: flex-start;
   text-align: left;
   text-anchor: start; }
 
 .ct-label.ct-horizontal.ct-end {
-  -webkit-box-align: flex-start;
   -webkit-align-items: flex-start;
-  -ms-flex-align: flex-start;
   align-items: flex-start;
-  -webkit-box-pack: flex-start;
   -webkit-justify-content: flex-start;
-  -ms-flex-pack: flex-start;
   justify-content: flex-start;
   text-align: left;
   text-anchor: start; }
@@ -1967,9 +1959,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   text-anchor: start; }
 
 .ct-chart-bar .ct-label.ct-horizontal.ct-end {
-  -webkit-box-align: flex-start;
   -webkit-align-items: flex-start;
-  -ms-flex-align: flex-start;
   align-items: flex-start;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1979,25 +1969,17 @@ body > .navbar-collapse[data-color="purple"]:after {
   text-anchor: start; }
 
 .ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-start {
-  -webkit-box-align: flex-end;
   -webkit-align-items: flex-end;
-  -ms-flex-align: flex-end;
   align-items: flex-end;
-  -webkit-box-pack: flex-start;
   -webkit-justify-content: flex-start;
-  -ms-flex-pack: flex-start;
   justify-content: flex-start;
   text-align: left;
   text-anchor: start; }
 
 .ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-end {
-  -webkit-box-align: flex-start;
   -webkit-align-items: flex-start;
-  -ms-flex-align: flex-start;
   align-items: flex-start;
-  -webkit-box-pack: flex-start;
   -webkit-justify-content: flex-start;
-  -ms-flex-pack: flex-start;
   justify-content: flex-start;
   text-align: left;
   text-anchor: start; }
@@ -2019,7 +2001,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: flex-start;
+  -webkit-box-pack: zstart;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: flex-start;
   justify-content: flex-start;
