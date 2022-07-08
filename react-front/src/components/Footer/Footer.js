@@ -48,8 +48,7 @@ class Footer extends Component {
             </ul>
             <p className="copyright text-center">
               © {new Date().getFullYear()}{" "}
-              <a href="http://www.creative-tim.com">Creative Tim</a>, made with
-              love for a better web
+              <a href="https://github.com/stock-project">Acorn</a>, 1, 4팀의 작품
             </p>
           </nav>
         </Container>
