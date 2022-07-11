@@ -12,6 +12,7 @@ import couplingmini from "components/Sidebar/image-side/couplingmini.png"
 import dashboardmini from "components/Sidebar/image-side/dashboardmini.png"
 import kospimini from "components/Sidebar/image-side/kospimini.png"
 import kospinasdaqmini from "components/Sidebar/image-side/kospinasdaqmini.png"
+import notificationmini from "components/Sidebar/image-side/notificationmini.png"
 
 const dashboardRoutes = [
   {
@@ -61,7 +62,7 @@ const dashboardRoutes = [
   {
     path: "/notifications",
     name: "Notifications",
-    icon: "nc-icon nc-bell-55",
+    image : notificationmini,
     component: Notifications,
     layout: "/admin"
   }
