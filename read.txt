@@ -1,0 +1,21 @@
+react 서버 구동 ===============
+(node js 설치필요)
+
+prompt나 gitbash에서 
+
+-> cd react-front    (경로를 react-front 폴더 안으로)
+-> npm start
+
+에러날 시에 node_moduels , pacakge-lock.json 파일 삭제후
+-> npm install --force
+-> npm start
+
+
+FLASK 서버 구동================
+
+prompt나 gitbash에서
+
+-> cd stock (경로를 stcok 폴더안으로)
+-> python server.py 
+
+->http://localhost:5000/dashboard 주소 에서 dashboard 텍스트 뜨는지확인 

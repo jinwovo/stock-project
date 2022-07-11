@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="ad1e09ba-9c4a-47e9-ae58-ef3d0afb724b" name="Changes" comment="Changes">
 =======
     <list default="true" id="ad1e09ba-9c4a-47e9-ae58-ef3d0afb724b" name="Changes" comment="">
@@ -16,6 +17,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stock/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock/server.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="ad1e09ba-9c4a-47e9-ae58-ef3d0afb724b" name="Changes" comment="" />
+>>>>>>> 74b1a38e13914f6e065f244292a8bd239f90e7ef
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,8 +172,12 @@
 >>>>>>> 33ad7cefa12022e494cedbc0d9fe538b188638c0
 =======
       <workItem from="1657067918526" duration="22339000" />
+<<<<<<< HEAD
       <workItem from="1657258555148" duration="5011000" />
 >>>>>>> 0ea479bdc3ea14ec8bf5f361e88e1d850cec01d4
+=======
+      <workItem from="1657258555148" duration="5614000" />
+>>>>>>> 74b1a38e13914f6e065f244292a8bd239f90e7ef
     </task>
     <servers />
   </component>
