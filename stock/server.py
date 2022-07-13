@@ -1,4 +1,7 @@
 from flask import Flask
+import seaborn as sns
+import FinanceDataReader as fdr
+import kospiandnasdaq as kn
 
 app = Flask(__name__)
 
@@ -16,7 +19,12 @@ def main():
 
 @app.route('/kospiandnasdaq')
 def category():
-    return {"category": ["category.html"]}
+    df = kn.kospiandnasdaq().to_dict()
+
+    # tips = sns.load_dataset("tips").head(10).T
+    # tips = tips.to_dict()
+
+    return {"df" : df}
 
 
 @app.route('/kospi_nasdaq')
