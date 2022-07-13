@@ -1,0 +1,1 @@
+{"ast":null,"code":"var global = require('../internals/global');\n\nvar defineGlobalProperty = require('../internals/define-global-property');\n\nvar SHARED = '__core-js_shared__';\nvar store = global[SHARED] || defineGlobalProperty(SHARED, {});\nmodule.exports = store;","map":null,"metadata":{},"sourceType":"script"}
