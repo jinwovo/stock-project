@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: finance-datareader
+Version: 0.9.34
+Summary: Financial data reader (price, stock list of markets)
+Home-page: https://github.com/financedata/financedatareader
+Author: FinanceData.KR
+Author-email: plusjune@financedata.kr
+License: MIT License
+Keywords: data,finance
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
+Requires-Dist: pandas (>=0.19.2)
+Requires-Dist: requests (>=2.3.0)
+Requires-Dist: requests-file
+Requires-Dist: lxml
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
