@@ -19,7 +19,7 @@ def main():
 
 @app.route('/kospiandnasdaq')
 def category():
-    df = kn.kospiandnasdaq().to_dict()
+    df = kn.kospiandnasdaq().head(10).to_dict()
 
     # tips = sns.load_dataset("tips").head(10).T
     # tips = tips.to_dict()
@@ -29,12 +29,22 @@ def category():
 
 @app.route('/kospi_nasdaq')
 def kospi_nasdaq():
-    return {"kospi_nasdaq": ["kospi_nasdaq.html"]}
+    tips = sns.load_dataset("tips").head(10)
+    total_bill = tips["total_bill"].to_dict()
+    tip = tips["tip"].to_dict()
+    tips = tips.to_dict()
+    return {"tips": tips}
 
 
-@app.route('/stocks_nasdaq ')
+@app.route('/stocks_nasdaq')
 def stocks_nasdaq():
-    return {"stocks_nasdaq": ["stocks_nasdaq.html"]}
+    stock = fdr.StockListing('KOSPI')
+    list = []
+
+    for name in stock['Name']:
+        list.append(name)
+
+    return {"list": list}
 
 
 @app.route('/coupling')
