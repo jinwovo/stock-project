@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad1e09ba-9c4a-47e9-ae58-ef3d0afb724b" name="Changes" comment="" />
+    <list default="true" id="ad1e09ba-9c4a-47e9-ae58-ef3d0afb724b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Pywork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pywork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +50,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/ACORN/stock-project/stock&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sonminhyeong/Projects/stock-project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Pywork\\react-front\\node_modules\\typescript\\lib&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -69,6 +74,7 @@
       <recent name="C:\Pywork\react-front\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Pywork\react-front\src\components\Sidebar\image-side" />
       <recent name="C:\Pywork\react-front\src\layouts\Admin\components" />
       <recent name="C:\Pywork\react-front\src\components\ThemeWrapper\contexts" />
@@ -141,11 +147,29 @@
       <workItem from="1657527034683" duration="12000" />
       <workItem from="1657527331472" duration="425000" />
       <workItem from="1657696523620" duration="4342000" />
+      <workItem from="1657842448034" duration="157000" />
+      <workItem from="1657842615378" duration="3000" />
+      <workItem from="1657842634934" duration="31000" />
+      <workItem from="1657842695584" duration="461000" />
+      <workItem from="1658053724338" duration="1243000" />
+      <workItem from="1658055060302" duration="490000" />
+      <workItem from="1658129524393" duration="1367000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -158,13 +182,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/react-front/src/views/kospiandnasdaq.js</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/react-front/src/views/kospiandnasdaq.js</url>
           <line>5</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
