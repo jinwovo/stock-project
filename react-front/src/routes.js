@@ -38,7 +38,7 @@ const dashboardRoutes = [
     layout: "/admin"
   },
   {
-    path: "/stockofkospi",
+    path: "/kospi",
     name: "STOCK OF KOSPI",
     image: kospimini,
     component: Kospi,

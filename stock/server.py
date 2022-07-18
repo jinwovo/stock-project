@@ -2,6 +2,7 @@ from flask import Flask
 import seaborn as sns
 import FinanceDataReader as fdr
 import kospiandnasdaq as kn
+import nasdaq as na
 
 app = Flask(__name__)
 
@@ -14,37 +15,30 @@ def members():
 
 @app.route('/dashboard')
 def main():
-    return {"dashboard": ["dashboard.html","start.html1"]}
+    return {"dashboard": ["dashboard.html","start.html"]}
 
 
 @app.route('/kospiandnasdaq')
 def category():
-    df = kn.kospiandnasdaq().head(10).to_dict()
+    df = kn.kospiandnasdaq().to_dict()
 
-    # tips = sns.load_dataset("tips").head(10).T
-    # tips = tips.to_dict()
-
-    return {"df" : df}
+    return (df)
 
 
-@app.route('/kospi_nasdaq')
+@app.route('/stocks_kospi')
 def kospi_nasdaq():
-    tips = sns.load_dataset("tips").head(10)
-    total_bill = tips["total_bill"].to_dict()
-    tip = tips["tip"].to_dict()
-    tips = tips.to_dict()
-    return {"tips": tips}
+
+
+    return
 
 
 @app.route('/stocks_nasdaq')
 def stocks_nasdaq():
-    stock = fdr.StockListing('KOSPI')
-    list = []
+    nasdaq = na.nasdaq().to_dict()
+    nasdaq_month = na.nasdaq_month().to_dict()
+    nasdaq_day = na.nasdaq_day().to_dict()
 
-    for name in stock['Name']:
-        list.append(name)
-
-    return {"list": list}
+    return {"nasdaq" : nasdaq, "nasdaq_month" : nasdaq_month, "nasdaq_day" : nasdaq_day}
 
 
 @app.route('/coupling')
