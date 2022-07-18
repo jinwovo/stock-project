@@ -23,6 +23,7 @@ def category():
 
     # tips = sns.load_dataset("tips").head(10).T
     # tips = tips.to_dict()
+    # zzz
 
     return {"df" : df}
 
