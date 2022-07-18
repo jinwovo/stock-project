@@ -14,7 +14,7 @@ def members():
 
 @app.route('/dashboard')
 def main():
-    return {"dashboard": ["dashboard.html","start.html1"]}
+    return {"dashboard": ["dashboard.html","start.html"]}
 
 
 @app.route('/kospiandnasdaq')
